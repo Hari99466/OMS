@@ -15,7 +15,7 @@ public class Orange_hrm {
 		driver = new ChromeDriver();
 		driver.get("http://opensource.demo.orangehrmlive.com/");
 		driver.findElement(By.id("txtUsername")).sendKeys("admin");
-		driver.findElement(By.id("txtPassword")).sendKeys("admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("adminn");
 		driver.findElement(By.id("btnLogin")).click();
 	}
 
